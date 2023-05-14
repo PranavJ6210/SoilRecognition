@@ -59,10 +59,13 @@ def process_image(image):
         result = '''
         <style>
         body{
-        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fpremium-photo%2Fagriculture-plowed-field-black-soil-plowed-landscape-farmland-countryside_15435895.htm&psig=AOvVaw3rp3IIaHp6-qHbC6aSg9sT&ust=1684150105077000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCODVhZja9P4CFQAAAAAdAAAAABAE')
+        background-image: url('https://foundationfar.org/wp-content/uploads/2022/05/healthy-soil-e1652963401278.jpeg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover; 
+        }
+        h2{
+        color: white;
         }
         </style>
         <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
