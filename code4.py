@@ -57,44 +57,93 @@ def process_image(image):
 
     if x == 0:
         result = '''
+        <style>
+        body{
+        background-image: url('https://media.istockphoto.com/id/843942930/photo/fantasy-christmas-background.jpg?s=170667a&w=0&k=20&c=wazc4tx7gWDgG0aGCcfm1TWKtr4PkWwKH-d-qZB1Y48=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        }
+        </style>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <H2>
-            soilType: This is Black soil<br/>
-            recommendedCrop: Best suited to grow: Wheat<br/>
-            fertiliser: Fertilizer to use: Urea
+            This is Black soil<br/>
+            Best suited to grow: Wheat<br/>
+            Fertilizer to use: Urea
         </H2>
+        </div>
         '''
     elif x == 1:
         result = '''
+        <style>
+        body{
+        background-image: url('https://media.istockphoto.com/id/843942930/photo/fantasy-christmas-background.jpg?s=170667a&w=0&k=20&c=wazc4tx7gWDgG0aGCcfm1TWKtr4PkWwKH-d-qZB1Y48=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        }
+        </style>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <H2>
              This is Cinder soil<br/>
              Best suited to grow: Strawberries<br/>
              Fertilizer to use: Ammonium Nitrate
         </H2>
-
+        </div>
       '''
     elif x == 2:
         result ='''
+        <style>
+        body{
+        background-image: url('https://media.istockphoto.com/id/843942930/photo/fantasy-christmas-background.jpg?s=170667a&w=0&k=20&c=wazc4tx7gWDgG0aGCcfm1TWKtr4PkWwKH-d-qZB1Y48=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        }
+        </style>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <H2>
             This is Laterite soil<br/>
             Best suited to grow: Tea or Coffee<br/>
             Fertilizer to use: NPK
         </H2>
+        </div>
       '''
     elif x == 3:
         result = '''
+        <style>
+        body{
+        background-image: url('https://media.istockphoto.com/id/843942930/photo/fantasy-christmas-background.jpg?s=170667a&w=0&k=20&c=wazc4tx7gWDgG0aGCcfm1TWKtr4PkWwKH-d-qZB1Y48=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        }
+        </style>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <H2>
             This is Peat soil<br/>
             Best suited to grow: Onion<br/>
             Fertilizer to use: Diammonium phosphate
         </H2>
+        </div>
         '''
     else:
         result = '''
+        <style>
+        body{
+        background-image: url('https://media.istockphoto.com/id/843942930/photo/fantasy-christmas-background.jpg?s=170667a&w=0&k=20&c=wazc4tx7gWDgG0aGCcfm1TWKtr4PkWwKH-d-qZB1Y48=');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        }
+        </style>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
         <H2>
             This is Yellow soil<br/>
-             Best suited to grow: Orange<br/>
-             Fertilizer to use: Citrus Food fertilizer
+            Best suited to grow: Orange<br/>
+            Fertilizer to use: Citrus Food fertilizer
         </H2>
+        </div>
         '''
     
 
