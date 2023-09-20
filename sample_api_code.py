@@ -17,7 +17,7 @@ app = Flask(__name__)
 api = Api(app, version='1.0', title='Soil Classifier API', description='')
 ns = api.namespace('predict', description='Soil Classifier operations')
 
-model = joblib.load('mymodel 1.pkl')
+model = joblib.load('find_soil_model.pkl')
 
 # Define a parser for image uploads
 image_upload = api.parser()
