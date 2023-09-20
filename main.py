@@ -10,7 +10,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-model = joblib.load('mymodel 1.pkl')
+mmodel = joblib.load('find_soil_model.pkl')
 
 def process_image(image):
     # Load the selected image using OpenCV
